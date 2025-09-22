@@ -1,0 +1,109 @@
+#first{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+flex-wrap: wrap;
+row-gap: 10px;
+}
+
+.catgr{
+    text-align: center;
+    width: 170px;
+    height: 170px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+.catgr:hover{
+
+    width: 190px;
+    height: 190px;
+    background-color: yellow;
+    
+    border-radius: 25%;
+    transition: 0.5s;
+
+}
+
+
+
+#second{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 10px;
+   
+
+}
+
+#second1{
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+    display: flex;
+}
+
+#second2{
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    
+}
+
+#second3{
+
+    width: 400px;
+    height: 200px;
+    background-color:blanchedalmond;
+    display: flex;
+    
+
+}
+
+#watch:hover{
+    width: 230px;
+    height: 250px;
+}
+
+#mobile:hover{
+     width: 230px;
+    height: 250px;
+}
+
+#tv:hover{
+     width: 250px;
+    height: 250px;
+}
+
+#popular{
+    display: inline;
+    border-bottom: 3px solid red;
+}
+
+#third{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.third1{
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  border-radius: 15%;
+}
